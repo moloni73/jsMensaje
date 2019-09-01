@@ -1,0 +1,13 @@
+   let who = ['el profe', 'El charrua','La cony'];
+    let what = ['LLega tarde','llega un poco tarde', 'llega muy tarde'];
+    let when=['Siempre','Casi siempre','solo a veces'];
+    var mimessage;
+ 
+ 
+
+
+     <script>
+     var textodeldiv =document.getElementById("message-conteiner").innerHTML
+     function mifuncion() {alert(textodeldiv)}
+    window.onload=mifuncion;
+    </script>
